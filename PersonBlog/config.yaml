@@ -1,0 +1,22 @@
+# config.yaml
+
+app:
+  name: goWeb
+  port: 8080
+
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  password: zw123456
+  database: gorm
+  charset: utf8mb4
+
+logger:
+  level: info            # 支持：debug / info / warn / error
+  file: logs/app.log     # 日志输出文件（建议提前 mkdir logs）
+
+  redis:
+    addr: 127.0.0.1:6379
+    password: ""
+    db: 0
