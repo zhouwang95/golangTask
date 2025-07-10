@@ -22,6 +22,11 @@ func GenerateToken(userName string) (string, error) {
 		IssuedAt:  jwt.NewNumericDate(time.Now()),
 		NotBefore: jwt.NewNumericDate(time.Now()),
 	}
+	/*token1 := jwt.NewWithClaims(jwt.SigningMethodHS256, jwt.MapClaims{
+		"id":       storedUser.ID,
+		"username": storedUser.Username,
+		"exp":      time.Now().Add(time.Hour * 24).Unix(),
+	})*/
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claim)
 	return token.SignedString(jwtSecret)
 }

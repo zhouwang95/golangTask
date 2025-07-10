@@ -1,4 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="966c67db-5747-42b0-b241-643a8c63e451" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/logger/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/response/code.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/login.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/login.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/querty.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/querty.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/register.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/register.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware/jwt_auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/jwt_auth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/model.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request/request.go" beforeDir="false" afterPath="$PROJECT_DIR$/request/request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/response/response.go" beforeDir="false" afterPath="$PROJECT_DIR$/response/response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/jwt.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/jwt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goWeb/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../goWeb/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goWeb/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../goWeb/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../goWeb/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goWeb/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../goWeb/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goWeb/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/../goWeb/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goWeb/controller/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/../goWeb/controller/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goWeb/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../goWeb/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goWeb/logger/logger.go" beforeDir="false" afterPath="$PROJECT_DIR$/../goWeb/logger/logger.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goWeb/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../goWeb/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goWeb/middleware/jwt_auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/../goWeb/middleware/jwt_auth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goWeb/model/user_info.go" beforeDir="false" afterPath="$PROJECT_DIR$/../goWeb/model/user_info.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goWeb/request/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/../goWeb/request/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goWeb/response/user_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/../goWeb/response/user_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goWeb/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/../goWeb/router/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goWeb/service/user_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/../goWeb/service/user_service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goWeb/templates/sub1/a.impl" beforeDir="false" afterPath="$PROJECT_DIR$/../goWeb/templates/sub1/a.impl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goWeb/templates/user.impl" beforeDir="false" afterPath="$PROJECT_DIR$/../goWeb/templates/user.impl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goWeb/utils/jwt.go" beforeDir="false" afterPath="$PROJECT_DIR$/../goWeb/utils/jwt.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../software/go1.24.3" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2zJoR0jh9xqx5UJq9m1j4EAhLWA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;Go 构建.go build PersonBlog.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/gitCK/golangTask/PersonBlog&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/gitCK/golangTask/PersonBlog/main.go&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gitCK\golangTask\PersonBlog" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build PersonBlog" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="PersonBlog" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="PersonBlog" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go 构建.go build PersonBlog" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="966c67db-5747-42b0-b241-643a8c63e451" name="更改" comment="" />
+      <created>1751458527272</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751458527272</updated>
+      <workItem from="1751458528438" duration="39752000" />
+      <workItem from="1751700027225" duration="4665000" />
+      <workItem from="1751856692153" duration="8062000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/router/router.go</url>
+          <line>14</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
 </project>
